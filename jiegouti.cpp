@@ -171,3 +171,5 @@ int main() {
 //     }
 // 要明确class Counter是定义一个名为Counter的类，而Counter()是这个类的构造函数。构造函数的名称必须与类名相同，所以当用户看到Counter()时，它属于类Counter的一部分。
 
+
+

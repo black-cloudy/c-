@@ -793,20 +793,20 @@
 
 
 
-#include <iostream> 
-int main() { 
-    try { 
-        int numerator = 10; 
-        int denominator = 0; 
-        int result = numerator / denominator; 
-        std::cout << "Result: " << result << std::endl; 
-        if (denominator == 0) { 
-            throw "Division by zero!"; // 抛出一个字符串类型的异常 
-        } 
+// #include <iostream> 
+// int main() { 
+//     try { 
+//         int numerator = 10; 
+//         int denominator = 0; 
+//         int result = numerator / denominator; 
+//         std::cout << "Result: " << result << std::endl; 
+//         if (denominator == 0) { 
+//             throw "Division by zero!"; // 抛出一个字符串类型的异常 
+//         } 
         
-    } 
-    catch (const char* msg) { 
-        std::cerr << "Error: " << msg << std::endl; 
-    } 
-    return 0; 
-} 
+//     } 
+//     catch (const char* msg) { 
+//         std::cerr << "Error: " << msg << std::endl; 
+//     } 
+//     return 0; 
+// } 
